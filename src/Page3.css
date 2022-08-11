@@ -1,0 +1,51 @@
+.detail p{
+    opacity: .6;
+  }
+  
+  form button {
+    width: 89%;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    color: #fff;
+    font-size: 1.0rem;
+    border: 0ch;
+  }
+
+input {
+    display: none;
+    position: absolute;
+}
+label input:checked {
+      position: absolute;
+      border: 2px solid brown;
+    }
+.box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 0 2rem 1rem -1.3rem;
+    padding: .8rem;
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+  }
+
+.box p{
+    font-size: 14px;
+    opacity: .6;
+    margin: -.6rem 0 0 0;
+    padding-bottom: 1.5rem;
+}
+
+label:hover input ~ .box {
+    border: 2px solid darkslateblue;
+}
+
+label input:checked ~ .box {
+    border: 2px solid darkslateblue;
+}

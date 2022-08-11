@@ -1,0 +1,56 @@
+.detail p{
+    opacity: .6;
+  }
+  
+  form label {
+    float: left;
+    margin:0 0 2% 10%;
+  }
+  
+  form input {
+    width: 80%;
+    height: 50px;
+    outline: none;
+    padding: 0 .5;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: 0ch;
+  }
+  
+  .form-group {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  
+  .domain {
+    display: block;
+    opacity: .5;
+    text-align: center;
+    margin-left: 10%;
+    width: 25%;
+    height: 28px;
+    outline: none;
+    padding: .7rem;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid gray;
+  }
+  .url{
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  form input::placeholder {
+    padding: 1rem;
+  }
+  
+  form button {
+    width: 80%;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    color: #fff;
+    font-size: 1.0rem;
+    border: 0ch;
+  }

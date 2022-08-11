@@ -1,0 +1,18 @@
+.detail p{
+    opacity: .6;
+  }
+  
+  form button {
+    width: 89%;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    color: #fff;
+    font-size: 1.0rem;
+    border: 0ch;
+  }
+
+  .detail img {
+    margin: 5rem 0 1rem 0;
+  }
