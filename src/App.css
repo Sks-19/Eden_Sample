@@ -37,11 +37,11 @@ margin: .5rem;
 
 form label {
   float: left;
-  margin:0 0 2% 10%;
+  margin:0 0 2% 13%;
 }
 
 form input {
-  width: 80%;
+  width: 75%;
   height: 50px;
   outline: none;
   padding: 0 .5;
@@ -61,7 +61,7 @@ form input::placeholder {
 }
 
 form button {
-  width: 80%;
+  width: 75%;
   height: 50px;
   outline: none;
   border-radius: 5px;
