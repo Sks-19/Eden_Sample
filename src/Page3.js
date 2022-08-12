@@ -41,7 +41,7 @@ function Page3() {
         <div className='option'>
             <label>
                 <input type="radio" name="radio" checked="checked" />
-                <div className='myself box'>
+                <div className='box'>
                     <img src={Icon1} alt="Icon1" />
                     <h4>For myself</h4>
                     <p>Write better. Think more clearly. Stay organized.</p>
@@ -50,7 +50,7 @@ function Page3() {
 
             <label>
                 <input type="radio" name="radio" />
-                <div className='team box'>
+                <div className='box'>
                     <img src={Icon2} alt="Icon2" />
                     <h4>With my team</h4>
                     <p>Wikis, docs, tasks & projects, all in one place.</p>

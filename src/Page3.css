@@ -3,7 +3,7 @@
   }
   
   form button {
-    width: 75%;
+    width: 65%;
     height: 50px;
     outline: none;
     border-radius: 5px;
@@ -26,10 +26,10 @@ label input:checked {
     width: 130px;
     height: 160px;
     background-color: white;
-    border: 2px solid gray;
+    border: 2px solid #808080;
     border-radius: 5px;
-    margin: 0 2rem 1rem -1.3rem;
-    padding: .6rem 0 .4rem .8rem;
+    padding: .6rem 0 .6rem .8rem;
+    margin-bottom: 20px;
     display: inline-block;
     text-align: left;
     cursor: pointer;

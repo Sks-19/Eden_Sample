@@ -1,7 +1,19 @@
+import { useState } from 'react';
 import './App.css';
 import Logo from './Images/Eden_icon.png';
 
 function Page1() {
+
+  const [name, setName] = useState();
+  const [displayName, setDisplayName] = useState();
+  
+  const inputText = (e) => {
+    setName(e.target.value);
+  }
+
+  const onSubmit = () => {
+    setDisplayName(name);
+  }
     return (
         <>
         <div className='contaier'>
@@ -46,12 +58,15 @@ function Page1() {
         <input 
             type="text" 
             id="displayname" 
-            placeholder="Steve" 
+            placeholder="Steve"
+            onChange={inputText} 
+            value={name}
         />
-        
+
           <button 
             type='submit' 
-            value="submit">
+            value="submit"
+            onClick={onSubmit}>
             Create Workspace
           </button>
         </form>

@@ -3,7 +3,7 @@ import Logo from './Images/Eden_icon.png';
 import Icon from './Images/Icon.png';
 
 
-function Page4() {
+function Page4(props) {
     return (
         <>
         <div className='contaier'>
@@ -34,7 +34,7 @@ function Page4() {
         </div>
         <div className='detail'>
         <img src={Icon} alt="Icon" />
-          <h2>Congratuation, Eren!</h2>
+          <h2>Congratuation, Shubham{props.data}!</h2>
           <p>You have completed onboarding, you can start using the Eden!</p>
         </div>
         <form action='#'>
